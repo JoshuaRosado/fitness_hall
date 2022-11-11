@@ -1,0 +1,840 @@
+*{
+    font-family: sans-serif;
+}
+/* TITLES ================================================================= */
+#title{
+    font-size: 75px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#title_second{
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 0px;
+    padding: 0px;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#share_title{
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 0px;
+    padding: 0px;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+#routine_title{
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 0px;
+    padding: 0px;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.share_routine_container{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px;
+
+    box-shadow: 2px 2px white;
+    height: 775px;
+}
+
+
+
+
+.share_routine_nav{
+    background-color: rgba(0, 0, 0, 0.301);
+    box-shadow: 2px 2px white;
+    border-radius: 20px;
+    text-align: end;
+    width: 450px;
+    position: relative;
+    right: -800px;
+    top: -40px;
+
+}
+
+#whats_new{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px;
+    padding: 0px;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#check_this{
+    font-size: 42px;
+    font-weight: 700;
+    margin: 20px;
+    padding: 0px;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.home_pgh{
+
+    margin: 25px;
+
+}
+
+
+
+/* TUTORIALS W BY MUSCLES =================================*/
+
+
+.w_by_muscles{
+    margin: 20px;
+}
+
+
+
+/* =============HOME TABLE=============================== */
+
+
+
+#workout_table{
+    font-size: 20px;
+    background-color: rgba(112, 109, 109, 0.642);
+    margin: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 4px 6px rgba(255, 255, 255, 0.723);
+}
+
+/* ================================================================ */
+
+
+
+
+/* BACKGROUNDS==================================================== */
+#background{
+    margin: 20px;
+}
+
+.background{
+
+    animation:fadeIn 2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.475), rgba(0, 0, 0, 0.475)), url(../imgs/pool.png);
+}
+
+.second_background{
+    animation:fadeIn 2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.475), rgba(0, 0, 0, 0.475)), url(../imgs/boxing_ring.jpeg);
+
+}
+
+.home_bg{
+    animation:fadeIn 2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.475), rgba(0, 0, 0, 0.475)), url(../imgs/pink_lights.jpeg);
+
+
+}
+
+.tutorials_bg{
+    animation:fadeIn 2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.475), rgba(0, 0, 0, 0.475)), url(../imgs/lions.jpeg) ;
+
+}
+
+.share_bg{
+    animation:fadeIn 2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+    background-size:cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.475), rgba(0, 0, 0, 0.475)), url(../imgs/together.webp) ;
+
+}
+
+
+.edit_bg{
+    animation:fadeIn 2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.475), rgba(0, 0, 0, 0.475)), url(../imgs/gymmmmm.jpeg) ;
+
+
+}
+
+
+.view_routine_bg{
+    animation:fadeIn 2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.475), rgba(0, 0, 0, 0.475)), url(../imgs/cycles.jpeg) ;
+
+
+} 
+
+
+/* ================================================================================ */
+
+
+
+
+.logo1, .logo2{
+    height: 125px;
+    border-radius: 200%;
+    border: 4px solid rgba(255, 12, 109, 0.552);
+
+}
+
+
+.nav_bar{
+    width: 300px;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    position: relative;
+    right: -478px;
+    
+}
+
+.second_nav{
+    text-align: center;
+    background-color: rgba(70, 79, 87, 0.459);
+    width: 350px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 2px 2px white;
+
+}
+
+
+
+.home_sm_nav{
+    background-color: rgba(70, 79, 87, 0.459);
+    box-shadow: 2px 2px white;
+    border-radius: 10px;
+}
+
+.home_nav{
+
+    width: 85%;
+    margin: auto;
+    margin-top: -20px;
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+
+/* WELCOME_PATH NAV BAR */
+
+
+.nav_bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav_bar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav_bar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ff0c6d;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+
+}
+
+.nav_bar ul li:hover::after{
+    width: 100%;
+}
+
+
+/* HOME  NAV BAR========================================*/
+
+.home_nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.home_nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.home_nav ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #ff0c6d;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+
+}
+
+.home_nav ul li:hover::after{
+    width: 100%;
+}
+
+
+/* ============================================================== */
+
+/* SHARE ROUTINE NAV BAR */
+
+
+.share_routine_nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.share_routine_nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.share_routine_nav ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #ff0c6d;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+.share_routine_nav ul li:hover::after{
+    width: 100%;
+}
+
+
+/* ============EDIT ====================== */
+.edit_routine_sm_nav{
+    background-color: rgba(70, 79, 87, 0.459);
+    box-shadow: 2px 2px white;
+    border-radius: 10px;
+    
+}
+.edit_routine_nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.edit_routine_nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.edit_routine_nav ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #ff0c6d;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+.edit_routine_nav ul li:hover::after{
+    width: 100%;
+
+
+
+}
+.edit_routine_nav{
+    margin-right: -750px;
+}
+.edit_routine_sm_nav{
+display: flex;
+justify-content: flex-end;
+}
+
+
+
+
+.flexx{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+
+}
+
+/* ===========VIEW ROUTINE NAV================================ */
+
+
+
+.routine_sm_nav{
+background-color: rgba(70, 79, 87, 0.459);
+box-shadow: 2px 2px white;
+border-radius: 10px;
+
+}
+#view_routine{
+    display: flex;
+    justify-content: flex-end;
+}
+.routine_nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.routine_nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.routine_nav ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #ff0c6d;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+.routine_nav ul li:hover::after{
+    width: 100%;
+}
+
+
+/* ============================================================== */
+
+
+
+
+/* =====TUTORIALS LINKS========================================== */
+
+#links_nav{
+    background-color: rgba(0, 0, 0, 0.338);
+    border-radius: 5%;
+    box-shadow: 2px 2px white;
+    margin: 15px;
+    padding: 20px
+}
+
+
+#links_nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+#links_nav ul li a{
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 12, 109);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#links_nav ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #26ed4a;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+
+}
+
+#links_nav ul li:hover::after{
+    width: 100%;
+}
+
+/* ============ ACTION LINKS=============================
+
+*/
+.action{
+    border-radius: 5%;
+    width: 600px;
+    margin-right: -200px;
+    font-size: 15px;
+}
+
+
+.action ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.action ul li a{
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(56, 172, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.action ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: rgb(255, 12, 109);
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+
+}
+
+.action ul li:hover::after{
+    width: 100%;
+}
+
+
+
+/* ====================================================== */
+
+#reg, #log{
+    background-color: rgba(70, 79, 87, 0.459);
+    border-radius: 5%;
+    width: auto;
+    height: 575px;
+    margin-top: 2%;
+    margin-bottom: 30px;
+}
+
+#left_box, #right_box{
+    background-color: rgba(70, 79, 87, 0.459);
+    border-radius: 5%;
+    width: 530px;
+    height: 575px;
+    box-shadow: 4px 4px  white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.click{
+    position: absolute;
+    bottom: 220px;
+    left: 700px;
+    font-size: 20px;
+}
+
+.create_btn{
+    border-radius: 20px;
+    position: relative;
+    right: -600px;
+    top: -90px;
+}
+
+.update_btn{
+    
+        border-radius: 20px;
+        position: relative;
+        right: -600px;
+        top: -90px;
+    
+}
+
+
+
+.top_right_box, .top_left_box{
+    text-decoration: underline;
+    margin: 10px;
+
+}
+
+.form-group{
+    width: 300px;
+    height: 70px;
+}
+
+
+button{
+    width: 200px;
+    font-size: 18px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgba(255, 12, 109, 0.731);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow:hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.error{
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.576);
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    width: 30%;
+    height: 20px;
+    border-radius: 1000000000000000000000%;
+}
+.error_share{
+    display: flex;
+    flex-direction: column;
+    background-color: #0000002f;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    width: 1000px;
+    border-radius: 100%;
+
+
+
+
+
+
+}
+.error_sharing{
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.576);
+
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+    width: 50%;
+    height: 30px;
+    border-radius: 1000000000000000000000%;
+}
+
+.span{
+    background:#971c4d;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+span{
+    background:#ff0c6d;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+button:hover span{
+    width: 100%;
+}
+
+button:hover {
+    border: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, .bodyy {
+    height: 100%;
+}
+
+.bodyy {
+    font-family: 'Roboto';
+    text-align: center;
+    color: #f5f5f5;
+    animation:fadeIn 2s ease-in-out;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.250), rgba(0, 0, 0, 0.250)), url(../imgs/platform.jpeg);
+
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#enter{
+    position:absolute;
+    left: 570px;
+    bottom: 100px;
+}
+
+.inner-text {
+    position: relative;
+    top: 300px;
+    transform: translateY(-50%);
+    font-size: 10vmin;
+    @media only screen and (min-width: 320px) {
+    padding-left: 15px;
+    padding-right: 15px; 
+    }
+    @media only screen and (min-width: 400px) {
+    padding-left: 40px;
+    padding-right: 40px; 
+    }
+    @media only screen and (min-width: 680px) {
+    font-size: 75px;
+    }
+    @media only screen and (min-width: 950px) {
+    font-size: 100px;
+    }
+}
+
+.p1 {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+    @media only screen and (max-width: 465px) {
+    display: block;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+}
+
+.p2 {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    font-size: 150px;
+    text-decoration: underline;
+    margin: 0;
+    line-height: 1;
+    color: #c41e60;
+    @media only screen and (max-width: 465px) {
+    position: relative;
+    top: 0.6em;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+
+.w_t{
+    position: absolute;
+    bottom: 10px;
+    right: 40%;
+
+}
+
+.w_time{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+
+
+/* ===================================== */
+
+/* =============ROUTINE BOX / CONTAINER========= */
+
+.routine_container{
+    height: 90%;
+    width: 750px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.routine_box{
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 800px;
+    padding: 10px;
+    height:650px;
+    border-radius: 10%;
+    box-shadow: 2px 2px white;
+}
+
+.routine_label{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.edit_btn{
+    border-radius: 20%;
+}

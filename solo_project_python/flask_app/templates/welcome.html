@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/css/style.css') }}">
+    <title>Welcome</title>
+</head>
+<body class="bodyy">
+    <div class="hero">
+        <div class="inner-text">
+            <p class="p1">WELCOME</p><br>
+            <p class="p1">2</p><br>
+            <p class="p2">FITNESS HALL</p>
+        </div>
+        <div class="form-group p-3 " id="enter">
+            <a href="/welcome_path"><button type="submit" class="enter"><span class="span"></span>ENTER!</button></a>
+        </div>
+        <div>
+            <div>
+                <style>
+                    #logo1 {
+                        position: relative;
+                        height: 220px;
+                        cursor: pointer;
+                        margin-bottom: -550px;
+                    }
+                </style>
+                <img src="../static/imgs/logo2.jpeg" alt="dumbell_icon" id="logo1" class="logo1">
+                <script>
+                    logo1.onclick = function() {
+                    let start = Date.now();
+                
+                    let timer = setInterval(function() {
+                        let timePassed = Date.now() - start;
+                
+                        logo1.style.left = timePassed / 5 + 'px';
+                
+                        if (timePassed > 2000) clearInterval(timer);
+                
+                    }, 20);
+                    }
+                </script>
+                <div><p class="click">Click!</p></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

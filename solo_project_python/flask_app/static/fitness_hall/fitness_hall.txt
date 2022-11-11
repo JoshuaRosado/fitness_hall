@@ -1,0 +1,34 @@
+This is Fitness Hall 🏋🏽‍♀️
+
+This website is going to be created to help people who are trying to enter or just entered the fitness world and don't know where to start or need some guidance.
+
+How does it work?
+
+Once you login, you will have the welcome page where you can decide if you want to learn from other people who are experienced and sharing their routine OR if you want to help people with your knowledge if you are an experienced person.
+
+
+"CRUD"
+
+CREATE - If you select Time to Learn button it will redirect you to the CREATE page. Where you can create your routine with the basic information.
+
+READ - Once created it will be shared in the table at the HOME page to be public to every user that logs in. Every user will be allowed to see your information and if they want to see the full routine there will have the option to click on the action column ("ROUTINE") and will be redirected to be able to see the full description of the routine.
+
+UPDATE -A "logged in user" would have the option to EDIT his/her routine and UPDATE it. And it will show the updated version of the routine information in the home page.
+
+DELETE - A "logged in user" would have the option to DELETE her/his routine.
+
+
+EXTRA
+
+The website also will have a page where a button named "Workout Tutorials" will send you to a page where it has workouts divided by muscles and it will have links that will transfer you to an external website out of the project so people can watch how to execute exercises the correct way.
+
+
+
+
+
+STACK - PYTHON
+
+Github Link - https://github.com/JoshuaRosado/fitness_hall.git
+
+
+Student Name: Joshua Rosado Olivencia

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/css/style.css') }}">
+    <title>Fitness Hall </title>
+</head>
+
+<body class="background">
+    <!-- <img class="img
+    " src="{{url_for('static', filename='/fitness_index.jpg')}}" alt="background"> -->
+    <div class="container mx-auto" id="background">
+        <h1 class="my-2 mx-auto text-center text-uppercase text-white p-2" id="title">Fitness Hall</h1>
+        <div class="container ">
+            {% with messages = get_flashed_messages() %}
+            <!-- declare a variable called messages -->
+            {% if messages %}
+            <!-- check if there are any messages -->
+            {% for message in messages %}
+            <!-- loop through the messages -->
+            <p class="error mx-auto">{{message}}</p> <!-- display each message in a paragraph tag -->
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
+        </div>
+        <div class="row">
+            <div class="mx-auto col-sm-6 col-md-6 p-5 border text-white" id="reg">
+                <form action="/register" method="post">
+                    <h1 class="p-1 text-white" >Register</h1>
+
+                    <div class="form-group mx-auto p-3">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" name="first_name" class="form-control" id="first_name"
+                            placeholder="First Name">
+                    </div>
+
+                    <div class="form-group mx-auto p-3">
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" name="last_name" class="form-control" id="last_name" placeholder="Last Name">
+                    </div>
+
+                    <div class="form-group mx-auto p-3">
+                        <label for="email">Email:</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                    </div>
+
+                    <div class="form-group mx-auto p-3">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" name="password" id="password_confirmation"
+                            placeholder="Create A Password">
+                    </div>
+                    <div class="form-group mx-auto p-3">
+                        <label for="password_confirmation">Password Confirmation:</label>
+                        <input type="password" class="form-control" name="password_confirmation" id="password_confirmation"
+                            placeholder="Confirm Password">
+                    </div>
+                    <div class="form-group p-3 text-center">
+                        <button type="submit"><span></span> SUBMIT</button>
+                        <!-- <input type="submit" class="btn" value="Submit"> -->
+                    </div>
+                </form>
+            </div>
+
+
+
+
+            <div class="mx-auto col-sm-6 col-md-6 p-5 border text-white" id="log">
+                <form action="/login" method="post">
+                    <h1>Login</h1>
+
+
+                    <div class="form-group mx-auto p-3">
+                        <label for="email">Email:</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                    </div>
+
+                    <div class="form-group mx-auto p-3">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" name="password" id="password_confirmation"
+                            placeholder="Password">
+                    </div>
+
+                    <div class="form-group p-5 text-center">
+                        <button type="submit"><span></span> SUBMIT</button>
+                        <!-- <input type="submit" class="btn" value="Submit"> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html> 
