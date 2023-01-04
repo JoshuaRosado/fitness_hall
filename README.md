@@ -9,3 +9,4 @@ Also for people that do have experience there's a side of the website that you c
 This is created for those people that are intimidated, have been bullied in the gym fitness world by others with experience, for those who want to start but don't know where to start or how to do a workout and even for people wo are experienced and are looking for more information and knowledge to improve their daily section of workouts. 
 
 This is a project created to join the people from the GYM FITNESS community and people who are trying to join the community but don't have the experience or knowledge. Joining every person from different backgrounds and helping one another to grow as a community.
+<img src="https://github.com/JoshuaRosado/JoshuaRosado/blob/main/gif.webp" width="256"/>
